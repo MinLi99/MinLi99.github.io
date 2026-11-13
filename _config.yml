@@ -1,6 +1,6 @@
-title: Siming Deng
+title: Min Li
 # Comment out url when working locally to resolve base urls correctly
-url: https://MinLi99.github.io
+url: https://minli99.github.io
 
 # Keep this hostname separate from url so forks do not inherit live tracking.
 # When reusing this site, change BOTH values to your own GoatCounter site/domain.
@@ -13,7 +13,7 @@ og_image: og-cover.jpg
 
 # Owner/author information
 owner:
-  name: Siming Deng
+  name: Min Li
   avatar: avatar.jpg
   email: siming_deng_stat@163.com
   github: MinLi99
@@ -32,6 +32,10 @@ links:
     url: /publications/
   - title: Beyond Research
     url: /hobbies/
+  - title: Learning
+    url: /learning/
+  - title: Blog
+    url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai

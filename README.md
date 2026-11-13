@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://larrysimingdeng.github.io">
-  <img src=".github/assets/banner.svg" alt="Siming Deng, personal academic website" width="100%">
+<a href="https://minli99.github.io">
+  <img src=".github/assets/banner.svg" alt="Min Li, personal academic website" width="100%">
 </a>
 
-<a href="https://larrysimingdeng.github.io"><img alt="Live site" src="https://img.shields.io/badge/Live-larrysimingdeng.github.io-011F5B?style=flat-square&logo=githubpages&logoColor=white"></a>
+<a href="https://minli99.github.io"><img alt="Live site" src="https://img.shields.io/badge/Live-MinLi99.github.io-011F5B?style=flat-square&logo=githubpages&logoColor=white"></a>
 <img alt="Jekyll" src="https://img.shields.io/badge/Jekyll-4.2-990000?style=flat-square&logo=jekyll&logoColor=white">
 <img alt="Ruby" src="https://img.shields.io/badge/Ruby-3.3-011F5B?style=flat-square&logo=ruby&logoColor=white">
 <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-990000?style=flat-square"></a>
@@ -13,7 +13,7 @@
 
 ## Overview
 
-This repository contains the source of [larrysimingdeng.github.io](https://larrysimingdeng.github.io), the personal website of **Siming Deng (Larry Deng)**, graduate student at the [Department of Electrical and Systems Engineering](https://www.ese.upenn.edu/), [Penn Engineering](https://www.seas.upenn.edu/), University of Pennsylvania. His work sits at the intersection of AI agents, AI infrastructure, ML systems, and statistics.
+This repository contains the source of [minli99.github.io](https://minli99.github.io), the personal website of **Min Li**, PhD student in Management Science and Engineering at [Wuhan University](https://sti.whu.edu.cn/). Their work sits at the intersection of AI agents, AI infrastructure, ML systems, and statistics.
 
 | Page | Route | Content |
 |---|---|---|
@@ -62,8 +62,8 @@ Edit Markdown, push to `main`, and GitHub Pages rebuilds and publishes the site,
 Requires Ruby 3.3 (see `.ruby-version`) and Bundler.
 
 ```bash
-git clone https://github.com/LarrySimingDeng/larrysimingdeng.github.io.git
-cd larrysimingdeng.github.io
+git clone https://github.com/MinLi99/MinLi99.github.io.git
+cd MinLi99.github.io
 
 bundle install
 bundle exec jekyll serve --livereload
@@ -112,4 +112,4 @@ If older forks already send traffic to your endpoint, create a new site in GoatC
 
 ## License
 
-Code is released under the [MIT License](LICENSE). Site content (text, photos and publication material) © Siming Deng.
+Code is released under the [MIT License](LICENSE). Site content (text, photos and publication material) © Min Li.

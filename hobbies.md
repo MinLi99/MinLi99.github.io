@@ -13,12 +13,12 @@ title: Beyond Research
 <div class="third">
   <div class="image-container">
     <a href="/images/hobbies/dsm2.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm2.jpg" alt="Siming's personal photo">
+      <img src="/images/hobbies/dsm2.jpg" alt="Min Li's personal photo">
     </a>
   </div>
   <div class="image-container">
     <a href="/images/hobbies/dsm3.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm3.jpg" alt="Siming at the Forbidden City in Beijing">
+      <img src="/images/hobbies/dsm3.jpg" alt="Min Li at the Forbidden City in Beijing">
     </a>
     <div class="image-caption">
       <div class="caption-title">Forbidden City, Beijing</div>
@@ -26,7 +26,7 @@ title: Beyond Research
   </div>
   <div class="image-container">
     <a href="/images/hobbies/dsm4.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm4.jpg" alt="Siming's personal photo">
+      <img src="/images/hobbies/dsm4.jpg" alt="Min Li's personal photo">
     </a>
   </div>
 </div>
@@ -44,18 +44,18 @@ Every meal is an opportunity to create, taste, and share.
 <div class="cooking-gallery">
   <div class="cooking-featured">
     <a href="/images/hobbies/Dish1.jpg" class="image-popup">
-      <img src="/images/hobbies/Dish1.jpg" alt="Siming's signature dish">
+      <img src="/images/hobbies/Dish1.jpg" alt="Min Li's signature dish">
     </a>
   </div>
   <div class="cooking-grid">
     <div class="cooking-item">
       <a href="/images/hobbies/Dish2.jpg" class="image-popup">
-        <img src="/images/hobbies/Dish2.jpg" alt="Homemade meal by Siming">
+        <img src="/images/hobbies/Dish2.jpg" alt="Homemade meal by Min Li">
       </a>
     </div>
     <div class="cooking-item">
       <a href="/images/hobbies/Dish3.jpg" class="image-popup">
-        <img src="/images/hobbies/Dish3.jpg" alt="Culinary creation by Siming">
+        <img src="/images/hobbies/Dish3.jpg" alt="Culinary creation by Min Li">
       </a>
     </div>
   </div>
