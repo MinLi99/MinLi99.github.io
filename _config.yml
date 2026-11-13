@@ -1,12 +1,12 @@
 title: Siming Deng
 # Comment out url when working locally to resolve base urls correctly
-url: https://larrysimingdeng.github.io
+url: https://MinLi99.github.io
 
 # Keep this hostname separate from url so forks do not inherit live tracking.
 # When reusing this site, change BOTH values to your own GoatCounter site/domain.
 goatcounter:
-  endpoint: https://larrysimingdeng-clean.goatcounter.com/count
-  hostname: larrysimingdeng.github.io
+  endpoint: https://MinLi99-clean.goatcounter.com/count
+  hostname: MinLi99.github.io
 
 # Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
 og_image: og-cover.jpg
@@ -16,7 +16,7 @@ owner:
   name: Siming Deng
   avatar: avatar.jpg
   email: siming_deng_stat@163.com
-  github: LarrySimingDeng
+  github: MinLi99
   linkedin: larry-deng-317b92360
   scholar: https://scholar.google.com/citations?hl=en&user=aKyLtgsAAAAJ
   researchgate: https://www.researchgate.net/profile/Siming-Deng-3
@@ -34,7 +34,7 @@ links:
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Beijing
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 

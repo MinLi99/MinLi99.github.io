@@ -4,146 +4,12 @@ layout: page
 
 # About Me
 
-<img src="/images/dengsiming.jpg" class="floatpic">
+<img src="/images/photo.jpg" class="floatpic">
 
-Here is **Siming Deng (Larry Deng)**.<br>
+Here is **Min Li**. 
 
-I am a graduate student in the Department of [Electrical and Systems Engineering (ESE)](https://www.ese.upenn.edu/) at the [Penn Engineering](https://www.seas.upenn.edu/) of the **University of Pennsylvania**. Currently, I build **agentic AI tools and infrastructure** for iPhone hardware testing, spanning agent runtimes (multi-agent orchestration and tool use), on-device inference with **Apple MLX**, closed-loop test optimization, and **Vision Transformers** for distribution diagnosis. Broadly, my interests lie at the intersection of **AI infrastructure, applied ML, and hardware systems**. Prior to joining Penn, I gained valuable research experiences as a Research Assistant at Shenzhen University advised by [Dr. Jun Zhang](https://www.researchgate.net/profile/Jun_Zhang93). My work focused on **Nonparametric Statistics**, **Distortion Measurement Error Models**, and **Large Sample Theory**. I developed and analyzed advanced statistical methods, conducted large-scale simulations, and applied these techniques to real-world datasets, resulting in five SCI publications.<br>
+I am a phd in the Department of [SCIENCE AND TECHNOLOGY](https://sti.whu.edu.cn/) at the Management Science and Engineering of Wuhan University. <br>
 
-## Work Experience
-
-<div class="timeline">
-  <div class="timeline-progress" id="timeline-progress"></div>
-
-  <div class="timeline-item timeline-item--current">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/apple.svg" alt="Apple">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Apple Inc.</span></div>
-        <span class="timeline-time">Jan. 2026 - Present</span>
-      </div>
-      <div class="timeline-details">
-        Developed AI agent tools for iPhone hardware testing, enhancing automated diagnostics workflows and improving large-scale test efficiency.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/upenn.svg" alt="UPenn">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company">University of Pennsylvania</span></div>
-        <span class="timeline-time">Nov. 2025 - Jan. 2026</span>
-      </div>
-      <div class="timeline-details">
-        ViT-driven image geolocation.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/sf.svg" alt="SF Express">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">SF Express</span></div>
-        <span class="timeline-time">May. 2025 - Jul. 2025</span>
-      </div>
-      <div class="timeline-details">
-        Delivered microservice modules for the order management system.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/boc.svg" alt="Bank of China">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Bank of China</span></div>
-        <span class="timeline-time">Jul. 2024 - Sep. 2024</span>
-      </div>
-      <div class="timeline-details">
-        Involved in the deployment and fine-tuning of large language models in internal banking systems.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/szu.svg" alt="Shenzhen University">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company"><a href="https://bdsc.szu.edu.cn/">Big Data Institute, Shenzhen University</a></span></div>
-        <span class="timeline-time">2023 - 2024</span>
-      </div>
-      <div class="timeline-details">
-        Supervised by Distinguished Professor <a href="https://dblp.org/pid/h/JoshuaZhexueHuang.html">Joshua Zhexue Huang</a>. Carried out optimizations on data processing and clustering algorithms by leveraging distributed approximate computing techniques.
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<script>
-(function() {
-  var timelineProgress = document.getElementById('timeline-progress');
-  var timeline = document.querySelector('.timeline');
-  if (!timelineProgress || !timeline) return;
-
-  var items = timeline.querySelectorAll('.timeline-item');
-
-  // IntersectionObserver for in-view class
-  if ('IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in-view');
-        }
-      });
-    }, { rootMargin: '0px 0px -15% 0px' });
-
-    items.forEach(function(item, idx) {
-      if (idx < 3) {
-        // Reveal first 3 immediately on load (still gets the stagger transition)
-        item.classList.add('in-view');
-      } else {
-        observer.observe(item);
-      }
-    });
-  } else {
-    items.forEach(function(item) { item.classList.add('in-view'); });
-  }
-
-  // Scroll progress bar
-  window.addEventListener('scroll', function() {
-    var rect = timeline.getBoundingClientRect();
-    var totalHeight = timeline.offsetHeight;
-    var windowH = window.innerHeight;
-    var lineTop = 30;
-    var lineBottom = 30;
-    var lineHeight = totalHeight - lineTop - lineBottom;
-
-    if (rect.top < windowH && rect.bottom > 0) {
-      var scrolled = Math.min(1, Math.max(0, (windowH - rect.top - lineTop) / (totalHeight - lineTop + windowH * 0.4)));
-      timelineProgress.style.height = Math.min(scrolled * lineHeight, lineHeight) + 'px';
-    }
-  }, { passive: true });
-})();
-</script>
-
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - siming_deng_stat [at] 163.com
-
-**<font color="#990000">Seeking Software Engineer and Machine Learning roles — AI Infrastructure, Applied AI / Agents, and ML Systems. Feel free to reach out!</font>**
-
----
 
 ## Publications
 
@@ -289,7 +155,7 @@ Previously, my research centered on **nonparametric statistics** and **measureme
       <figure class="mtile">
         <img src="/images/milestones/apple-iphone18.jpg" alt="Siming Deng with the iPhone 18 lineup on display at Apple" loading="lazy">
       </figure>
-
+    
       <!-- iPhone 18 Pro cover: a baked snapshot of apple.com's Open Graph card, links to Apple -->
       <a class="mtile mtile--link mtile--contain" href="https://www.apple.com/iphone-18-pro/" target="_blank" rel="noopener noreferrer" aria-label="iPhone 18 Pro and iPhone 18 Pro Max on apple.com (opens in a new tab)">
         <img src="/images/milestones/iphone-18-pro-cover.png" alt="iPhone 18 Pro and iPhone 18 Pro Max" loading="lazy">
@@ -301,7 +167,7 @@ Previously, my research centered on **nonparametric statistics** and **measureme
           <span class="mtile__cap-domain">apple.com</span>
         </span>
       </a>
-
+    
       <!-- iPhone Duo cover: a baked snapshot of apple.com's Open Graph card, links to Apple -->
       <a class="mtile mtile--link" href="https://www.apple.com/iphone-duo/" target="_blank" rel="noopener noreferrer" aria-label="iPhone Duo on apple.com (opens in a new tab)">
         <img src="/images/milestones/iphone-duo-cover.png" alt="iPhone Duo" loading="lazy">

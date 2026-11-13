@@ -10,3 +10,8 @@ gem "jekyll-feed"
 
 # Platform dependencies
 gem "webrick", "~> 1.7"
+
+# Needed when `timezone` is set in _config.yml.
+# Windows has no system tz database, so Jekyll needs tzinfo + tzinfo-data there.
+gem "tzinfo"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
