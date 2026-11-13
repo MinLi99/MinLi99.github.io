@@ -18,8 +18,9 @@ This repository contains the source of [minli99.github.io](https://minli99.githu
 | Page | Route | Content |
 |---|---|---|
 | About Me | `/` | Bio and research focus, news grid, work-experience timeline |
-| Publications | `/publications/` | Peer-reviewed papers with covers and links |
-| Beyond Research | `/hobbies/` | Life outside the lab |
+| Research | `/publications/` | Peer-reviewed papers with covers and links |
+| Learning | `/learning/` | Learning notes |
+| Hobbies | `/hobbies/` | Life outside the lab |
 
 ## Preview
 

@@ -28,12 +28,12 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: About Me
     url: /
-  - title: Publications
+  - title: Research
     url: /publications/
-  - title: Beyond Research
-    url: /hobbies/
   - title: Learning
     url: /learning/
+  - title: Hobbies
+    url: /hobbies/
   - title: Blog
     url: /blog/
 

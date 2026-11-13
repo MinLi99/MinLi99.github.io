@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /publications/index.html
-title: Publications
+title: Research
 ---
 
-## Publications
+## Research
 
 - [The effects of content characteristics on user engagement in health communication: evidence from WeChat](https://doi.org/10.1108/AJIM-06-2025-0372)<br>Yuzhou Chen, **Min Li**, Lulu Zhou, Haowen Fan, Hu Liu<br>_Aslib Journal of Information Management, 2026._ (2nd author)<br>
 
