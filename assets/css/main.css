@@ -2996,3 +2996,45 @@ hr {
   color: #e5484d;
 }
 
+/* ============================================
+   LEARNING NOTE LIST (/learning/)
+   Rendered from the `learning` collection.
+   ============================================ */
+.learning-list {
+  list-style: none;
+  margin: 1.6rem 0 0;
+  padding: 0;
+}
+.learning-list > li {
+  padding: 0.9rem 0 1rem;
+  border-bottom: 1px solid rgba(1, 31, 91, 0.12);
+}
+.learning-list > li:first-child {
+  border-top: 1px solid rgba(1, 31, 91, 0.12);
+}
+.learning-list .learning-title {
+  font-weight: 600;
+}
+.learning-list .learning-date {
+  margin-left: 0.6rem;
+  font-size: 0.85rem;
+  color: rgba(51, 51, 50, 0.55);
+  white-space: nowrap;
+}
+.learning-list .learning-summary {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(51, 51, 50, 0.72);
+}
+[data-theme="dark"] .learning-list > li,
+[data-theme="dark"] .learning-list > li:first-child {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+[data-theme="dark"] .learning-list .learning-date {
+  color: rgba(212, 212, 220, 0.55);
+}
+[data-theme="dark"] .learning-list .learning-summary {
+  color: rgba(212, 212, 220, 0.75);
+}
+

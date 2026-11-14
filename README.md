@@ -19,7 +19,7 @@ This repository contains the source of [minli99.github.io](https://minli99.githu
 |---|---|---|
 | About Me | `/` | Bio and research focus, news grid, work-experience timeline |
 | Research | `/publications/` | Peer-reviewed papers with covers and links |
-| Learning | `/learning/` | Learning notes |
+| Learning | `/learning/` | Index of notes generated from `_learning/` |
 | Hobbies | `/hobbies/` | Life outside the lab |
 
 ## Preview
@@ -81,11 +81,13 @@ bundle exec jekyll serve --livereload
 ├── _config.yml        # site title, owner info, top navigation
 ├── _includes/         # head, footer and shared partials
 ├── _layouts/          # page template, theme toggle, timeline logic
+├── _learning/         # learning notes: one Markdown file per note
 ├── assets/
 │   ├── css/main.css   # palette, header, timeline, dark mode styles
 │   └── js/            # interactions and vendor scripts
 ├── images/            # photos, logos, paper thumbnails
 ├── index.md           # About Me: bio, news, experience timeline
+├── learning.md        # Learning: list generated from _learning/
 ├── publications.md    # publication cards
 └── hobbies.md         # Beyond Research
 ```
@@ -100,8 +102,28 @@ Everything personal sits in a handful of files:
 | Top navigation | `_config.yml`, `links:` section |
 | Bio, news, experience timeline | `index.md` |
 | Publications | `publications.md` |
+| Learning notes | `_learning/` |
 | Photos and thumbnails | `images/` |
 | Colors, typography, animations | `assets/css/main.css` |
+
+### Adding a learning note
+
+Each note is one Markdown file in `_learning/`, and the filename becomes its URL:
+`_learning/bayes-from-scratch.md` is published at `/learning/bayes-from-scratch/`.
+
+```yaml
+---
+title: Bayes from scratch
+date: 2026-11-20
+description: One-line summary shown in the /learning/ list.
+---
+```
+
+`title` and `date` drive the list (newest first); `description` is the summary line —
+omit it and the list falls back to the note's first paragraph. The `page` layout is
+applied automatically through `defaults` in `_config.yml`, so it does not need to be
+repeated. `learning.md` renders the list from the collection, so no manual links are
+needed; restart `bundle exec jekyll serve` to pick up new files.
 
 ### Analytics
 

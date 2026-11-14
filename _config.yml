@@ -45,6 +45,20 @@ highlighter: rouge
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:title
 
+# Learning notes: every Markdown file in _learning/ is published at
+# /learning/<filename>/ and listed automatically on /learning/.
+collections:
+  learning:
+    output: true
+    permalink: /learning/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: learning
+    values:
+      layout: page
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
