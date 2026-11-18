@@ -2929,6 +2929,17 @@ body,
     "Helvetica Neue", "Segoe UI", Inter, Arial, sans-serif;
 }
 
+/* Chinese pages set lang="zh-CN"; give CJK glyphs a proper sans stack */
+[lang^="zh"] .article-wrap,
+[lang^="zh"] .article-wrap p,
+[lang^="zh"] .article-wrap li,
+[lang^="zh"] .article-wrap td,
+[lang^="zh"] .article-wrap blockquote {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Source Han Sans SC", "Noto Sans SC", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif;
+}
+
 /* ============================================
    PENN PALETTE
    Blue #011f5b = structure (links, lines, tags)
